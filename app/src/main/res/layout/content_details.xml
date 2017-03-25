@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/jeans"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.harsha.dell.friendfinder.DetailsAct"
+    tools:showIn="@layout/activity_details">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DEVELOPERS"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    />
+
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="K.V.Shashank"
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vishal Kumar Singh"
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nirman Jajjari"
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sai Rama Raju"
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ganesh Sanaboyina"
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CODING TEAM"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:singleLine="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="UI TEAM"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_width="170dp"
+
+            android:layout_gravity="center"
+            android:layout_height="2dp"
+            android:background="#ffffff"/>
+
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="K.V.Shashank"
+            android:id="@+id/shasha"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_width="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_height="2dp"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Nirman Jajjari"
+            android:id="@+id/jaja"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Vishal Kumar Singh"
+            android:layout_below="@+id/shasha"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Sai Rama Raju"
+            android:layout_below="@+id/jaja"
+            android:id="@+id/raju"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:layout_below="@+id/raju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:text="S.Ganesh"
+            android:layout_marginRight="15dp"
+
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Special Thanks To "
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="220dp"
+
+        android:layout_gravity="center"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mr.Rajan Chhettri"
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mr.Akshit "
+
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+
+        />
+
+</LinearLayout>
+
